@@ -1,0 +1,3 @@
+pydantic>=2.8
+typing_extensions
+registry @ git+ssh://git@github.com/adnanhd/registry-pattern.git@main

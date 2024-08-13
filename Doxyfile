@@ -1,0 +1,9 @@
+PROJECT_NAME           = "Factory Pattern"
+OUTPUT_DIRECTORY       = "docs"
+INPUT                  = "factory"
+RECURSIVE              = YES
+EXCLUDE                = "tests"
+GENERATE_MAN           = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+FILE_PATTERNS          = *.py

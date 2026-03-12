@@ -31,7 +31,9 @@ class FunctionalFactory(ObjectConfigMap[Callable[P, R]], Generic[P, R]):
         if self.coercion:
             functional = validate_call(functional)
         if not self.__class__.has_registry_key(functional):
-            functional = self.__class__.register_instance(functional, {"type": type, **kwds})
+            functional = self.__class__.register_instance(
+                functional, {"type": type, **kwds}
+            )
         return functional
 
     def __get_pydantic_core_schema__(self, source_type, handler):

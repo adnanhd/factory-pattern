@@ -4,3 +4,5 @@
 .pytest_cache/
 docs/
 build/
+.myrsyncbackup
+procrastination/model-visualization/model_graph*
